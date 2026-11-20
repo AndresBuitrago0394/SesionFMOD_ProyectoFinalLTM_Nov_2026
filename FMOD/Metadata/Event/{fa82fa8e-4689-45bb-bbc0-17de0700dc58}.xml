@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.04.00">
 	<object class="Event" id="{fa82fa8e-4689-45bb-bbc0-17de0700dc58}">
+		<property name="note">
+			<value>EL ATAQUE IMPACTA A ELLEN</value>
+		</property>
 		<property name="name">
 			<value>Spit Impact</value>
 		</property>
