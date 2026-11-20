@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.04.00">
+	<object class="Event" id="{deb3841b-9462-4e81-9f21-7b339ed70448}">
+		<property name="note">
+			<value>USA UN PARAMETRO DE VELOCIDAD DE CAIDA DE -50 A 0</value>
+		</property>
+		<property name="name">
+			<value>Box_Falling</value>
+		</property>
+		<property name="outputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="folder">
+			<destination>{a8e177c8-1909-43e6-90fa-1fc1ca906aea}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{5cadfbd9-ea26-431f-93a7-74ca27f2f732}</destination>
+		</relationship>
+		<relationship name="masterTrack">
+			<destination>{b6f89f1b-705e-4a8f-ae71-1882d6590de9}</destination>
+		</relationship>
+		<relationship name="mixerInput">
+			<destination>{6edb1ede-43dc-4736-9ab1-0e2abcb13211}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{b2b68b21-dbb7-4f16-89c8-a3430ec04e45}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{d994ec0e-d7a4-439b-946e-cfdb8e8b3268}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{3c018b29-a756-44d9-9f3a-0d7fa431001d}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{82f1768c-418b-4a4b-9fa9-045b3415726f}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixer" id="{5cadfbd9-ea26-431f-93a7-74ca27f2f732}">
+		<relationship name="masterBus">
+			<destination>{cfec74f8-4ba8-497e-9905-4cdbda4b00a5}</destination>
+		</relationship>
+	</object>
+	<object class="MasterTrack" id="{b6f89f1b-705e-4a8f-ae71-1882d6590de9}">
+		<relationship name="mixerGroup">
+			<destination>{cfec74f8-4ba8-497e-9905-4cdbda4b00a5}</destination>
+		</relationship>
+	</object>
+	<object class="MixerInput" id="{6edb1ede-43dc-4736-9ab1-0e2abcb13211}">
+		<relationship name="masters">
+			<destination>{7848e56e-cd04-46c9-9940-5741397333a2}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{11c47985-ea01-4642-b5d6-6765f5f0f741}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{aaab5e4e-23eb-444b-8038-207c3530b441}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b31ca768-f6a5-4f11-bdd0-bb7ed11c0b67}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{b2b68b21-dbb7-4f16-89c8-a3430ec04e45}" />
+	<object class="MarkerTrack" id="{d994ec0e-d7a4-439b-946e-cfdb8e8b3268}" />
+	<object class="Timeline" id="{3c018b29-a756-44d9-9f3a-0d7fa431001d}" />
+	<object class="EventMixerMaster" id="{cfec74f8-4ba8-497e-9905-4cdbda4b00a5}">
+		<relationship name="effectChain">
+			<destination>{8b05ecbe-9184-4917-8223-34c304112430}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8cd41c3c-44dd-44cb-b856-c9f6034ccaff}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{5cadfbd9-ea26-431f-93a7-74ca27f2f732}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{11c47985-ea01-4642-b5d6-6765f5f0f741}">
+		<relationship name="effects">
+			<destination>{a0ebbe72-43b7-4887-a4c1-b41c6ab864ef}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{aaab5e4e-23eb-444b-8038-207c3530b441}" />
+	<object class="MixerBusEffectChain" id="{8b05ecbe-9184-4917-8223-34c304112430}">
+		<relationship name="effects">
+			<destination>{a0f2720e-c55b-49e3-a83d-f69b6803f3a9}</destination>
+			<destination>{1949a285-3e32-4d37-9c30-ea042769a981}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8cd41c3c-44dd-44cb-b856-c9f6034ccaff}" />
+	<object class="MixerBusFader" id="{a0ebbe72-43b7-4887-a4c1-b41c6ab864ef}" />
+	<object class="MixerBusFader" id="{a0f2720e-c55b-49e3-a83d-f69b6803f3a9}" />
+	<object class="SpatialiserEffect" id="{1949a285-3e32-4d37-9c30-ea042769a981}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>15.5</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{40881182-b329-4dd9-bb2d-f8cbbd33317b}">
+		<property name="name">
+			<value>FootstepDuck</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b22747da-c099-4736-b9cb-c1324c25186a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ae8e7106-5038-4a3d-b108-6e25ef1e6cc0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ae8e7106-5038-4a3d-b108-6e25ef1e6cc0}">
+		<property name="minimum">
+			<value>-30</value>
+		</property>
+		<property name="maximum">
+			<value>0</value>
+		</property>
+		<property name="initialValue">
+			<value>-30</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

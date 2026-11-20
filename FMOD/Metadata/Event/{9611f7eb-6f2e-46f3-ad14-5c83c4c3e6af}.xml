@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.04.00">
+	<object class="Event" id="{9611f7eb-6f2e-46f3-ad14-5c83c4c3e6af}">
+		<property name="note">
+			<value>Usa dos tracks; uno llamado "Hard Landing" y otro llamado "Soft Landing". Usa un parámetro de velocidad de caida de -50 a 0. Dependiento de la altura (-50 siendo lo más alto) debe sonar un track o el otro</value>
+		</property>
+		<property name="name">
+			<value>Ellen_Land</value>
+		</property>
+		<property name="outputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ae38c58c-66f0-47a5-83fd-5bb9287763c1}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{2d23aa9b-f0cd-4f03-821d-3a9f4cb7e1ec}</destination>
+		</relationship>
+		<relationship name="masterTrack">
+			<destination>{1df2cdcb-9ff6-43c1-9153-34c655f89f4b}</destination>
+		</relationship>
+		<relationship name="mixerInput">
+			<destination>{6758ec13-1eba-4a55-b8bd-e1c5580194b9}</destination>
+		</relationship>
+		<relationship name="automatableProperties">
+			<destination>{94c964b9-db95-4ef3-950f-c43b2b6c9a64}</destination>
+		</relationship>
+		<relationship name="markerTracks">
+			<destination>{e03e9913-8fd7-422a-841c-5c6b77e74172}</destination>
+		</relationship>
+		<relationship name="timeline">
+			<destination>{2b78aae7-bce7-440a-8cec-8db7a306faf0}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{82f1768c-418b-4a4b-9fa9-045b3415726f}</destination>
+		</relationship>
+	</object>
+	<object class="EventMixer" id="{2d23aa9b-f0cd-4f03-821d-3a9f4cb7e1ec}">
+		<relationship name="masterBus">
+			<destination>{4e86bcbb-41a0-44bb-a205-af70dfa10d0e}</destination>
+		</relationship>
+	</object>
+	<object class="MasterTrack" id="{1df2cdcb-9ff6-43c1-9153-34c655f89f4b}">
+		<relationship name="mixerGroup">
+			<destination>{4e86bcbb-41a0-44bb-a205-af70dfa10d0e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerInput" id="{6758ec13-1eba-4a55-b8bd-e1c5580194b9}">
+		<relationship name="masters">
+			<destination>{7848e56e-cd04-46c9-9940-5741397333a2}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{347d124b-3598-439f-b10e-bc320947eab9}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{fa5443a9-8830-4bb1-a07c-84048e0226da}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b31ca768-f6a5-4f11-bdd0-bb7ed11c0b67}</destination>
+		</relationship>
+	</object>
+	<object class="EventAutomatableProperties" id="{94c964b9-db95-4ef3-950f-c43b2b6c9a64}" />
+	<object class="MarkerTrack" id="{e03e9913-8fd7-422a-841c-5c6b77e74172}" />
+	<object class="Timeline" id="{2b78aae7-bce7-440a-8cec-8db7a306faf0}" />
+	<object class="EventMixerMaster" id="{4e86bcbb-41a0-44bb-a205-af70dfa10d0e}">
+		<property name="volume">
+			<value>3.5</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{44fdf921-546c-4e59-9de6-2d03c733c6a7}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{221a93d5-7981-4a82-a8d4-9133107067dc}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{2d23aa9b-f0cd-4f03-821d-3a9f4cb7e1ec}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{347d124b-3598-439f-b10e-bc320947eab9}">
+		<relationship name="effects">
+			<destination>{1176af36-f595-4c21-bc17-24a3f855fd88}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{fa5443a9-8830-4bb1-a07c-84048e0226da}" />
+	<object class="MixerBusEffectChain" id="{44fdf921-546c-4e59-9de6-2d03c733c6a7}">
+		<relationship name="effects">
+			<destination>{be3009af-3f32-4504-8342-b1a719853110}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{221a93d5-7981-4a82-a8d4-9133107067dc}" />
+	<object class="MixerBusFader" id="{1176af36-f595-4c21-bc17-24a3f855fd88}" />
+	<object class="MixerBusFader" id="{be3009af-3f32-4504-8342-b1a719853110}" />
+</objects>
