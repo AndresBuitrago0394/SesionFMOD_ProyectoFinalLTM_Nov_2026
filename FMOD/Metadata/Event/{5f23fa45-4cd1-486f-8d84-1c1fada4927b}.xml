@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.04.00">
 	<object class="Event" id="{5f23fa45-4cd1-486f-8d84-1c1fada4927b}">
 		<property name="note">
-			<value>CREA DOS NESTED EVENTS DENTRO DE ESTE EVENTO. NOMBRA UNO "Bullet Impact Object" Y AL OTRO "Bullet Impact Enemy". USA UN PARAMETRO DE TIPO LABEL CON LAS ETIQUETAS "Object" y "Enemy"</value>
+			<value>USA UN PARAMETRO DE TIPO LABEL CON LAS ETIQUETAS "Object" y "Enemy". CREA DOS "EVENT INSTRUMENTS" DENTRO DE ESTE EVENTO. NOMBRA UNO "Bullet Impact Object" Y AL OTRO "Bullet Impact Enemy". </value>
 		</property>
 		<property name="name">
 			<value>Bullet Impact</value>
