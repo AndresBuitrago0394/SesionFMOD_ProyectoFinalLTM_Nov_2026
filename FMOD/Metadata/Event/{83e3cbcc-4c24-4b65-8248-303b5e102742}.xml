@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.04.00">
 	<object class="Event" id="{83e3cbcc-4c24-4b65-8248-303b5e102742}">
 		<property name="note">
-			<value>Los valores de los parámetros deben ser de tipo "Label" y deben llamarse "Earth" y "Stone". De otro modo, el código no podrá interpretarlos.</value>
+			<value>CREA UN PARAMETRO DE TIPO "LABEL" CON LOS VALORES "Earth" Y "Stone"</value>
 		</property>
 		<property name="name">
 			<value>Ellen_Footsteps 2</value>
