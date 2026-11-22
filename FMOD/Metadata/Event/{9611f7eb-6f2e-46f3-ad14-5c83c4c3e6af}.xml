@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.04.00">
 	<object class="Event" id="{9611f7eb-6f2e-46f3-ad14-5c83c4c3e6af}">
 		<property name="note">
-			<value>Usa dos tracks; uno llamado "Hard Landing" y otro llamado "Soft Landing". Usa un parámetro de velocidad de caida de -50 a 0. Dependiento de la altura (-50 siendo lo más alto) debe sonar un track o el otro</value>
+			<value>ELLEN CAE DESPUES DE UN SALTO.</value>
 		</property>
 		<property name="name">
 			<value>Ellen_Land</value>

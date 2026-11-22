@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.04.00">
 	<object class="Event" id="{409b1a5c-c7ff-45ea-bd7d-4e57d486172a}">
+		<property name="note">
+			<value>SPLASH GRANDE</value>
+		</property>
 		<property name="name">
 			<value>Acid_Splash</value>
 		</property>

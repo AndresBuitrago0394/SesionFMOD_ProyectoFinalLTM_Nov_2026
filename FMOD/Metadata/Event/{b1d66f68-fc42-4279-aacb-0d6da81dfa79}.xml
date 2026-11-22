@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.04.00">
 	<object class="Event" id="{b1d66f68-fc42-4279-aacb-0d6da81dfa79}">
+		<property name="note">
+			<value>ATENCION A LA DURACION DE LA ANIMACION DEL ATAQUE</value>
+		</property>
 		<property name="name">
 			<value>Attack</value>
 		</property>

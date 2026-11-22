@@ -2,7 +2,12 @@
 <objects serializationModel="Studio.02.04.00">
 	<object class="Event" id="{1e6365ef-6e35-4dae-b0cd-aaeaa7625e56}">
 		<property name="note">
-			<value>USA UN PARAMETRO DE TIPO CONTINUO LLAMADO "Bobbling" CON EL CUAL CONTROLARAS EL VOLUMEN DEL EVENTO.</value>
+			<value>SONIDO DE CAJA MOVIENDOSE DENTRO DEL ACIDO. ENTRE MAS SE MUEVE, MAS FUERTE SUENA
+
+USA UN PARAMETRO DE TIPO CONTINUO LLAMADO "Bobbling" CON EL CUAL CONTROLARAS EL VOLUMEN DEL EVENTO. VALORES DE 0 A 1 DONDE:
+
+0 = NO SE MUEVE PARA NADA
+1 = SE MUEVE MUCHO</value>
 		</property>
 		<property name="name">
 			<value>Bobbling Create</value>

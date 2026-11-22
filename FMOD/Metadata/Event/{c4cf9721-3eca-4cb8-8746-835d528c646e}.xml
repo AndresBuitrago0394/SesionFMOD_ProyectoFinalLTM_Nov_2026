@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.04.00">
 	<object class="Event" id="{c4cf9721-3eca-4cb8-8746-835d528c646e}">
 		<property name="note">
-			<value>SONIDO DEL PROJECTIL</value>
+			<value>SONIDO DEL PROJECTIL VIAJANDO</value>
 		</property>
 		<property name="name">
 			<value>Spit</value>
