@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.04.00">
 	<object class="AudioFile" id="{b7782a88-5d78-43d4-9b26-580ce8bcb4b0}">
 		<property name="assetPath">
-			<value>Scifi, Computer, Futuristic UI, Robotic, Movement 02 SND121360 S01 1.wav</value>
+			<value>enemies/Gunner/Scifi, Computer, Futuristic UI, Robotic, Movement 02 SND121360 S01 1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -29,13 +29,10 @@
 			<destination>{97dd821e-ef2f-4cb7-93e5-71f5e686ab27}</destination>
 		</relationship>
 	</object>
-	<object class="AssetMarker" id="{3e3a7987-ec56-4d3d-b3fd-043171f562cd}">
-		<property name="name" />
-	</object>
+	<object class="AssetMarker" id="{3e3a7987-ec56-4d3d-b3fd-043171f562cd}" />
 	<object class="AssetMarker" id="{97dd821e-ef2f-4cb7-93e5-71f5e686ab27}">
 		<property name="positionSec">
 			<value>1.6683541666666666</value>
 		</property>
-		<property name="name" />
 	</object>
 </objects>
