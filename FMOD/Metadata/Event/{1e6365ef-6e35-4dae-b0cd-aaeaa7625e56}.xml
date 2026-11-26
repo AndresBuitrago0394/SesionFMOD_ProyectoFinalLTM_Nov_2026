@@ -36,6 +36,9 @@ USA UN PARAMETRO DE TIPO CONTINUO LLAMADO "Bobbling" CON EL CUAL CONTROLARAS EL 
 		<relationship name="timeline">
 			<destination>{964ff51c-df22-4365-89c5-ae4f93a74a0f}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{82f1768c-418b-4a4b-9fa9-045b3415726f}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{ee807a48-7553-4ecc-92ff-27eb2289146a}">
 		<relationship name="masterBus">

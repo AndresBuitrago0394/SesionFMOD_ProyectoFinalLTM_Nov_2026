@@ -41,6 +41,9 @@ CREA OTRO PARAMETRO DE TIPO CONTINUO LLAMADO "AcidAbove" EL CUAL MEDIRA LA DISTA
 		<relationship name="parameters">
 			<destination>{e0234b4a-9886-45dc-8bf1-65ddc09b30c6}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{82f1768c-418b-4a4b-9fa9-045b3415726f}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{efe70e71-2bb9-4099-9709-d5d880e3c0c6}">
 		<relationship name="masterBus">

@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{3c018b29-a756-44d9-9f3a-0d7fa431001d}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{82f1768c-418b-4a4b-9fa9-045b3415726f}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{5cadfbd9-ea26-431f-93a7-74ca27f2f732}">
 		<relationship name="masterBus">

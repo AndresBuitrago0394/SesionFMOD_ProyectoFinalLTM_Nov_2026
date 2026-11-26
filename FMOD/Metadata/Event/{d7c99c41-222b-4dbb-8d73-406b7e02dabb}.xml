@@ -51,6 +51,9 @@ CREA UN PARAMETRO DE TIPO CONTINUO LLAMADO "Threat Level" CON VALORES DE 0 A 1 C
 		<relationship name="timeline">
 			<destination>{1a5e8790-ccb0-4fdd-85ce-9b6e101a5d15}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{82f1768c-418b-4a4b-9fa9-045b3415726f}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{edd7ac17-14d9-4ae8-b56f-2137df26c196}">
 		<relationship name="masterBus">
